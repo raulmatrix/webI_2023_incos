@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro Estudiante</h1>
+    <form action="recepciom.html" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" name="apellido" id="apellido"><br>
+        <label for="carnet">Carnet:</label><br>
+        <input type="number" name="carnet" id="carnet"><br>
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" name="sexo" id="sexo1">Hombre
+        <input type="radio" name="sexo" id="sexo2">Mujer
+        <br>
+        <label for="dpto">Departamento Origen:</label><br>
+        <select name="dpto" id="dpto">
+            <option value="">-Elegir Opcion-</option>
+            <option value="1">Cochabamba</option>
+            <option value="2">Santa Cruz</option>
+            <option value="3">La Paz</option>
+            <option value="4">Tarija</option>
+            <option value="5">Chuquisaca</option>
+            <option value="6">Pando</option>
+            <option value="7">Beni</option>
+            <option value="8">Potosi</option>
+            <option value="9">Oruro</option>
+        </select>
+        <br>
+        <label for="celular">Celular</label><br>
+        <input type="text" name="celular" id="celular"><br>
+        <label for="dir">Direccion:</label><br>
+        <textarea name="dir" id="dir" cols="30" rows="3"></textarea>
+
+        <br>
+        <input type="submit" value="Registrar">
+        <input type="reset" value="Limpiar">
+        </fieldset>
+        
+
+
+    </form>
+</body>
+</html>
